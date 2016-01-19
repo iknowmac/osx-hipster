@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138B39121C4EE80100527BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B39111C4EE80100527BFA /* AppDelegate.swift */; };
+		138B39141C4EE80100527BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B39131C4EE80100527BFA /* ViewController.swift */; };
+		138B39161C4EE80100527BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138B39151C4EE80100527BFA /* Assets.xcassets */; };
+		138B39191C4EE80100527BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138B39171C4EE80100527BFA /* Main.storyboard */; };
+		138B39241C4EE80200527BFA /* hIPsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B39231C4EE80200527BFA /* hIPsterTests.swift */; };
+		138B392F1C4EE80200527BFA /* hIPsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B392E1C4EE80200527BFA /* hIPsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		138B39201C4EE80200527BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138B39061C4EE80100527BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138B390D1C4EE80100527BFA;
+			remoteInfo = hIPster;
+		};
+		138B392B1C4EE80200527BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138B39061C4EE80100527BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138B390D1C4EE80100527BFA;
+			remoteInfo = hIPster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		138B390E1C4EE80100527BFA /* hIPster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hIPster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138B39111C4EE80100527BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		138B39131C4EE80100527BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		138B39151C4EE80100527BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		138B39181C4EE80100527BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		138B391A1C4EE80100527BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138B391F1C4EE80200527BFA /* hIPsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hIPsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138B39231C4EE80200527BFA /* hIPsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hIPsterTests.swift; sourceTree = "<group>"; };
+		138B39251C4EE80200527BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138B392A1C4EE80200527BFA /* hIPsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hIPsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138B392E1C4EE80200527BFA /* hIPsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hIPsterUITests.swift; sourceTree = "<group>"; };
+		138B39301C4EE80200527BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138B390B1C4EE80100527BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138B391C1C4EE80200527BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138B39271C4EE80200527BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138B39051C4EE80100527BFA = {
+			isa = PBXGroup;
+			children = (
+				138B39101C4EE80100527BFA /* hIPster */,
+				138B39221C4EE80200527BFA /* hIPsterTests */,
+				138B392D1C4EE80200527BFA /* hIPsterUITests */,
+				138B390F1C4EE80100527BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		138B390F1C4EE80100527BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138B390E1C4EE80100527BFA /* hIPster.app */,
+				138B391F1C4EE80200527BFA /* hIPsterTests.xctest */,
+				138B392A1C4EE80200527BFA /* hIPsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		138B39101C4EE80100527BFA /* hIPster */ = {
+			isa = PBXGroup;
+			children = (
+				138B39111C4EE80100527BFA /* AppDelegate.swift */,
+				138B39131C4EE80100527BFA /* ViewController.swift */,
+				138B39151C4EE80100527BFA /* Assets.xcassets */,
+				138B39171C4EE80100527BFA /* Main.storyboard */,
+				138B391A1C4EE80100527BFA /* Info.plist */,
+			);
+			path = hIPster;
+			sourceTree = "<group>";
+		};
+		138B39221C4EE80200527BFA /* hIPsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				138B39231C4EE80200527BFA /* hIPsterTests.swift */,
+				138B39251C4EE80200527BFA /* Info.plist */,
+			);
+			path = hIPsterTests;
+			sourceTree = "<group>";
+		};
+		138B392D1C4EE80200527BFA /* hIPsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				138B392E1C4EE80200527BFA /* hIPsterUITests.swift */,
+				138B39301C4EE80200527BFA /* Info.plist */,
+			);
+			path = hIPsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		138B390D1C4EE80100527BFA /* hIPster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138B39331C4EE80200527BFA /* Build configuration list for PBXNativeTarget "hIPster" */;
+			buildPhases = (
+				138B390A1C4EE80100527BFA /* Sources */,
+				138B390B1C4EE80100527BFA /* Frameworks */,
+				138B390C1C4EE80100527BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hIPster;
+			productName = hIPster;
+			productReference = 138B390E1C4EE80100527BFA /* hIPster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		138B391E1C4EE80200527BFA /* hIPsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138B39361C4EE80200527BFA /* Build configuration list for PBXNativeTarget "hIPsterTests" */;
+			buildPhases = (
+				138B391B1C4EE80200527BFA /* Sources */,
+				138B391C1C4EE80200527BFA /* Frameworks */,
+				138B391D1C4EE80200527BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138B39211C4EE80200527BFA /* PBXTargetDependency */,
+			);
+			name = hIPsterTests;
+			productName = hIPsterTests;
+			productReference = 138B391F1C4EE80200527BFA /* hIPsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		138B39291C4EE80200527BFA /* hIPsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138B39391C4EE80200527BFA /* Build configuration list for PBXNativeTarget "hIPsterUITests" */;
+			buildPhases = (
+				138B39261C4EE80200527BFA /* Sources */,
+				138B39271C4EE80200527BFA /* Frameworks */,
+				138B39281C4EE80200527BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138B392C1C4EE80200527BFA /* PBXTargetDependency */,
+			);
+			name = hIPsterUITests;
+			productName = hIPsterUITests;
+			productReference = 138B392A1C4EE80200527BFA /* hIPsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		138B39061C4EE80100527BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "iKnowMac, Inc";
+				TargetAttributes = {
+					138B390D1C4EE80100527BFA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					138B391E1C4EE80200527BFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 138B390D1C4EE80100527BFA;
+					};
+					138B39291C4EE80200527BFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 138B390D1C4EE80100527BFA;
+					};
+				};
+			};
+			buildConfigurationList = 138B39091C4EE80100527BFA /* Build configuration list for PBXProject "hIPster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 138B39051C4EE80100527BFA;
+			productRefGroup = 138B390F1C4EE80100527BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138B390D1C4EE80100527BFA /* hIPster */,
+				138B391E1C4EE80200527BFA /* hIPsterTests */,
+				138B39291C4EE80200527BFA /* hIPsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		138B390C1C4EE80100527BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138B39161C4EE80100527BFA /* Assets.xcassets in Resources */,
+				138B39191C4EE80100527BFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138B391D1C4EE80200527BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138B39281C4EE80200527BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		138B390A1C4EE80100527BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138B39141C4EE80100527BFA /* ViewController.swift in Sources */,
+				138B39121C4EE80100527BFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138B391B1C4EE80200527BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138B39241C4EE80200527BFA /* hIPsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138B39261C4EE80200527BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138B392F1C4EE80200527BFA /* hIPsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		138B39211C4EE80200527BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138B390D1C4EE80100527BFA /* hIPster */;
+			targetProxy = 138B39201C4EE80200527BFA /* PBXContainerItemProxy */;
+		};
+		138B392C1C4EE80200527BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138B390D1C4EE80100527BFA /* hIPster */;
+			targetProxy = 138B392B1C4EE80200527BFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		138B39171C4EE80100527BFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138B39181C4EE80100527BFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		138B39311C4EE80200527BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		138B39321C4EE80200527BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		138B39341C4EE80200527BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hIPster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iknowmac.hIPster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		138B39351C4EE80200527BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hIPster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iknowmac.hIPster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		138B39371C4EE80200527BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hIPsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iknowmac.hIPsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hIPster.app/Contents/MacOS/hIPster";
+			};
+			name = Debug;
+		};
+		138B39381C4EE80200527BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hIPsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iknowmac.hIPsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hIPster.app/Contents/MacOS/hIPster";
+			};
+			name = Release;
+		};
+		138B393A1C4EE80200527BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hIPsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iknowmac.hIPsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hIPster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		138B393B1C4EE80200527BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hIPsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iknowmac.hIPsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hIPster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		138B39091C4EE80100527BFA /* Build configuration list for PBXProject "hIPster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138B39311C4EE80200527BFA /* Debug */,
+				138B39321C4EE80200527BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138B39331C4EE80200527BFA /* Build configuration list for PBXNativeTarget "hIPster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138B39341C4EE80200527BFA /* Debug */,
+				138B39351C4EE80200527BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		138B39361C4EE80200527BFA /* Build configuration list for PBXNativeTarget "hIPsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138B39371C4EE80200527BFA /* Debug */,
+				138B39381C4EE80200527BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		138B39391C4EE80200527BFA /* Build configuration list for PBXNativeTarget "hIPsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138B393A1C4EE80200527BFA /* Debug */,
+				138B393B1C4EE80200527BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 138B39061C4EE80100527BFA /* Project object */;
+}
