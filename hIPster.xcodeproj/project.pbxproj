@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132374721C4EF1E100E47BC8 /* HostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132374711C4EF1E100E47BC8 /* HostData.swift */; };
+		132374741C4EF38900E47BC8 /* HostDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132374731C4EF38900E47BC8 /* HostDoc.swift */; };
 		138B39121C4EE80100527BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B39111C4EE80100527BFA /* AppDelegate.swift */; };
 		138B39141C4EE80100527BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B39131C4EE80100527BFA /* ViewController.swift */; };
 		138B39161C4EE80100527BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138B39151C4EE80100527BFA /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132374711C4EF1E100E47BC8 /* HostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostData.swift; sourceTree = "<group>"; };
+		132374731C4EF38900E47BC8 /* HostDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostDoc.swift; sourceTree = "<group>"; };
 		138B390E1C4EE80100527BFA /* hIPster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hIPster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		138B39111C4EE80100527BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		138B39131C4EE80100527BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,9 +101,11 @@
 			children = (
 				138B39111C4EE80100527BFA /* AppDelegate.swift */,
 				138B39131C4EE80100527BFA /* ViewController.swift */,
-				138B39151C4EE80100527BFA /* Assets.xcassets */,
 				138B39171C4EE80100527BFA /* Main.storyboard */,
+				138B39151C4EE80100527BFA /* Assets.xcassets */,
 				138B391A1C4EE80100527BFA /* Info.plist */,
+				132374711C4EF1E100E47BC8 /* HostData.swift */,
+				132374731C4EF38900E47BC8 /* HostDoc.swift */,
 			);
 			path = hIPster;
 			sourceTree = "<group>";
@@ -252,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132374741C4EF38900E47BC8 /* HostDoc.swift in Sources */,
+				132374721C4EF1E100E47BC8 /* HostData.swift in Sources */,
 				138B39141C4EE80100527BFA /* ViewController.swift in Sources */,
 				138B39121C4EE80100527BFA /* AppDelegate.swift in Sources */,
 			);
@@ -475,6 +483,7 @@
 				138B39351C4EE80200527BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138B39361C4EE80200527BFA /* Build configuration list for PBXNativeTarget "hIPsterTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +492,7 @@
 				138B39381C4EE80200527BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138B39391C4EE80200527BFA /* Build configuration list for PBXNativeTarget "hIPsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +501,7 @@
 				138B393B1C4EE80200527BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

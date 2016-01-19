@@ -9,6 +9,8 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    var bugs = [HostDoc]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
